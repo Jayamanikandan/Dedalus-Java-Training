@@ -1,0 +1,16 @@
+Use cases of Design patterns:
+1. Singleton
+A configuration file should be accessible by multiple calls concurrently as it will provide static config data loaded into in-memory objects. The application only reads from the configuration file for the first time and thereafter from the second call onwards the client applications read the data from in-memory objects. It should have a performance benefit as it prevents multiple users to repeatedly access and read the configuration file or properties file.
+
+2. Prototype
+Client is running a Movie Rating website. Client is using a External Rest API to fetch all the details (name,releasedate,genre etc) related to the movie title. As this is an external API, Client have to pay certain fee for every API call.
+Client website is designed in such a way that rating of the Movie can change periodically, but other data i.e Name, Genre and releaseDate is constant and will never change.
+Client needs an new object of Movie for every visitor who rates the movie.
+In order to save money, The External API should be hit only once and for every subsequent request, we should be able to use the object fetched with first time API call.
+
+3. Builder
+Client has a certification website and they want to ask students their personal information. The student is provided with a form that has multiple questions, of which only firstName and lastName are mandatory.
+
+The client wants to store this information in an immutable object. We can save this information by directly calling the constructor, but the form has ample questions and students can choose to answer only some of them.
+
+It is not practical to create a constructor with different combinations.
