@@ -1,0 +1,10 @@
+com\dal\newspringproj\newspringbootproj\entity\LocalTour.class
+com\dal\newspringproj\newspringbootproj\controller\TravellerRestController.class
+com\dal\newspringproj\newspringbootproj\repo\LocalTourRepository.class
+com\dal\newspringproj\newspringbootproj\repo\TravellerRepository.class
+com\dal\newspringproj\newspringbootproj\entity\ForeignTour.class
+com\dal\newspringproj\newspringbootproj\service\TravellerServiceImpl.class
+com\dal\newspringproj\newspringbootproj\service\TravellerService.class
+com\dal\newspringproj\newspringbootproj\entity\Traveller.class
+com\dal\newspringproj\newspringbootproj\repo\ForeignTourRepository.class
+com\dal\newspringproj\newspringbootproj\NewspringbootprojApplication.class
